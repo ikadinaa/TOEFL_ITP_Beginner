@@ -2176,7 +2176,7 @@ elif menu == "📝 Structure and Written Expression":
         st.write(f"Package 5: {p5}/15")
 
         st.success(f"Total Score: {total}/75")
-        st.session_state["structure_total"] = structure_score
+        st.session_state["structure_total"] = total
         st.success(f"Percentage: {percentage:.0f}%")
 
         st.session_state["structure_total"] = total
