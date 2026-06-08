@@ -1383,7 +1383,7 @@ elif menu == "🎧 Listening Comprehension":
         st.write(f"Package 5: {p5}/15")
 
         st.success(f"Total Score: {total}/75")
-        st.session_state["listening_total"] = listening_score
+        st.session_state["listening_total"] = total
         st.success(f"Percentage: {percentage:.0f}%")
 
         st.session_state["listening_total"] = total
